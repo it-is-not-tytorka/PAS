@@ -4,7 +4,7 @@ iterator = iter(a)
 while True:
     try:
         print(next(iterator))
-    except StopIteration: # тут можно было как угодно: хоть range(36), чтобы перебрать все элементы, но мне этот вариант понравился
+    except StopIteration: # тут можно было как угодно: хоть range(36), чтобы перебрать все элементы, но мне этот вариант понравился, так как он не зависит от количества элементов
         print('Stop iteration')
         break
 
